@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    tools:context="com.vb.aliabdurrahman.simplecalculator.MainActivity"
+    android:layout_margin="40dp"
+    android:gravity="center">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edtBilsatu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Bilangan Bro" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edtBilDua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Bilangan Lagi Bro"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="-"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="X"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnBagi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=":"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Clear"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
